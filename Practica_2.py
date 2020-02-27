@@ -5,5 +5,5 @@ if respuesta==0:
     print(hostname+": está en funcionamiento! :D")
 else:
     print(hostname+": no funciona! :(")  
-red="200.33.171.0"
+red="200.33.171.0/24"
 os.system("nmap -sP "+red)      
